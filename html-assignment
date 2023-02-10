@@ -6,8 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML-Assignment</title>
 </head>
+
+
 <body>
     <h1>Liam Sayers-Aho</h1>
+
+    <nav>
+        <ul>
+            <li><a href="notes.html">notes</a></li>
+            <li><a href="index.html">index</a></li>
+        </ul>
+    </nav>
+
     <article>
     <h2>About me</h2>
     <div>
@@ -20,6 +30,8 @@
         <q>"It is often the small steps, that bring about the most lasting change." -Queen Elizabeth II</q>
     </div>
     </article>
+
+
 
 <img src="photosss/photo of me.jpg" alt="image of myself" />
 
