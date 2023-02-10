@@ -7,6 +7,11 @@
     <title>html-assignment</title>
 </head>
 <body>
-    <nav></nav>
+    <nav>
+        <ul>
+            <li><a href="index.html">about me</a></li>
+            <li><a href="notes.html">html tags</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
