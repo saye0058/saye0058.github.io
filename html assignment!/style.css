@@ -10,6 +10,10 @@ h1,footer{
     background-color: brown;
 }
 
+h1{
+    background-color: brown;
+}
+
 .main-title{
     color: #13cf45;
 }
