@@ -6,7 +6,7 @@ body{
     font-size: 18px;
 }
 
-header,footer{
+h1,footer{
     background-color: brown;
 }
 
@@ -23,6 +23,10 @@ div ul li{
 }
 
 nav ol li {
+    list-style-type: none;
+}
+
+nav ul li{
     list-style-type: none;
 }
 
