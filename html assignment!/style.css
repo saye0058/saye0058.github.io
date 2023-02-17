@@ -5,3 +5,19 @@ Body{
 body{
     font-size: 18px;
 }
+
+header,footer{
+    background-color: brown;
+}
+
+.main-title{
+    color: #13cf45;
+}
+
+#my-image{
+    box-shadow: 0px 2px 1px rgba(0,0,0,0.5);
+}
+
+div ul li{
+    list-style-type: square;
+}
