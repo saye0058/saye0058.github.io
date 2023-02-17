@@ -21,3 +21,29 @@ header,footer{
 div ul li{
     list-style-type: square;
 }
+
+nav ol li {
+    list-style-type: none;
+}
+
+div ul li:first-child{
+    background-color: red;
+}
+
+div ul li:nth-child(3n){
+    background-color: red;
+}
+
+.link--underline{
+    text-decoration: none;
+}
+
+.link--underline{
+    border-style: solid;
+    border-color: blue;
+    background-color: rgb(226, 43, 125);
+}
+
+.link--underline:hover{
+    color: #13cf45;
+}
