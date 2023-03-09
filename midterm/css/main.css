@@ -1,17 +1,19 @@
-
+/*text and background colour*/
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #aad4cf;
 	
 }
+/*tital*/
 header{
 	margin: 250px;
 	color: antiquewhite;
 }
-
+/*directory*/
 .display li{
 	display: inline-block;
 	padding: 200px;
 	margin: -75px;
 	height: 500px;
 }
+
