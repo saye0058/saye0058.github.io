@@ -1,3 +1,17 @@
+
 body {
-	background-color: #7decf0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #aad4cf;
+	
+}
+header{
+	margin: 250px;
+	color: antiquewhite;
+}
+
+.display li{
+	display: inline-block;
+	padding: 200px;
+	margin: -75px;
+	height: 500px;
 }
