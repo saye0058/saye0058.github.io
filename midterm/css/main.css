@@ -1,37 +1,62 @@
 /*text and background colour*/
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: #aad4cf;
-	
+	background-color:  #13bca9;
 }
+
+/*
+#div1{
+	background-color: #00ccff;
+	width: 25%;
+	float: right;
+	height: 100%;
+}
+
+#div2{
+	background-color: #aad4cf;
+	width: 50%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#div3{
+	background-color: #00ccff;
+	width: 25%;
+	float: left;
+	height: 100%;
+}*/
+
+
 /*tital*/
 header{
-	margin: 250px;
+	margin: auto;
 	color: antiquewhite;
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
 }
 /*directory*/
 .display li{
 	display: inline-block;
 	/*padding: 500px;*/
-	margin-left: 325px;
-
+	margin-left: 200px;
+	height: 0px;
 }
 
 .lone-starfish-wide{
-	/*background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));*/
+
 	background-image: url(photos4/lone-starfish-wide.jpg);
 	display: flex;
 	justify-content: center;
-	height: 640px;
+	height: 425px;
+	width: 100%;
+	margin: auto;
 }
 
 /* words next to small starfish img*/
 .lifeoffish {
-	width: 1000px;
-	margin-left: 375px;
-	padding-right: 20px;
+	width: 600px;
+	margin-left: 200px;
+	padding-left: 20px;
 }
 .lifeoffish img{
 	width: 250px;
@@ -42,23 +67,30 @@ header{
 
 /* info on the starfish*/
 .info{
-	margin-left: 100px;
-	padding-left: 100px;
+	margin-left: 0px;
+	padding-left: 0px;
 
 }
 /*facts about starfish*/
 .facts {
-	margin-left: 375px;
+	margin-left: 200px;
 
 }
 
 /*contact section*/
 .contact {
-	margin-left: 375px;
+	margin-left: 200px;
 }
 
-
-
+/* contact box */
+.box{
+	width: 850px;
+	height: 600px;
+	padding-right: 10px;
+	border: 1px solid black;
+	margin-left: 200px;
+	
+}
 
 
 
@@ -69,5 +101,16 @@ header{
 
 
 footer{
-	margin-left: 1100px;
+	margin-left: 900px;
 }
+
+.wrapper{
+	background-color: #aad4cf;
+	width: 1200px;
+	margin: auto;
+	height: 50%;
+}
+
+
+/*width="200px" height="200px"    small photo*/
+/*width="900px" height="400px"    big photo*/
