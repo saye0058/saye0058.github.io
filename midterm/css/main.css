@@ -8,12 +8,51 @@ body {
 header{
 	margin: 250px;
 	color: antiquewhite;
+	display: flex;
+	justify-content: center;
 }
 /*directory*/
 .display li{
 	display: inline-block;
-	padding: 200px;
-	margin: -75px;
-	height: 500px;
+	/*padding: 500px;*/
+	margin-left: 325px;
+
 }
 
+.lone-starfish-wide{
+	/*background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));*/
+	background-image: url(photos4/lone-starfish-wide.jpg);
+	display: flex;
+	justify-content: center;
+	height: 640px;
+}
+
+/* words next to small starfish img*/
+.lifeoffish {
+	width: 1000px;
+	margin-left: 375px;
+	padding-right: 20px;
+}
+.lifeoffish img{
+	width: 250px;
+	float: left;
+	padding-left: 20px;
+	clear: right;
+}
+
+/* info on the starfish*/
+.info{
+	margin-left: 100px;
+	padding-left: 100px;
+
+}
+/*facts about starfish*/
+.facts {
+	margin-left: 375px;
+
+}
+
+/*contact section*/
+.contact {
+	margin-left: 375px;
+}
