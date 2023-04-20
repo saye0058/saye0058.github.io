@@ -50,13 +50,45 @@ table {
 /*colours are #c78c06 #ffe6ac #222and white*/
 
 
-@media screen and (min-width: 760px){}
+@media screen and (min-width: 1px) and (max-width: 760px){
+
+*{
+	/* background-color: white; */
+}
+
+
+.logo{ 
+	background-color: #c78c06;
+
+}
+
+.logo nav{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
 
 
 
 
 
-@media screen and (max-width: 1200px){
+
+
+
+
+.welcome{
+	background-image: url(main-banner.jpg);
+}
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 761px) and (max-width: 1200px){
 
 }
 
