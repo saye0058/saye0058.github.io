@@ -139,7 +139,7 @@ h1 {
 
 /* digital transformation img */
 .digital img{
-	max-width: ;
+	max-width: 100%;
 
 }
 /* the background colour */
@@ -167,7 +167,7 @@ h1 {
 
 /* marketing img */
 .marketing img{
-	max-width: ;
+	max-width: 100%;
 	margin-top: 10px;
 }
 /* the background colour */
@@ -196,7 +196,7 @@ h1 {
 
 /* video img */
 .video img{
-	max-width: ;
+	max-width: 100%;
 	margin-top: 10px;
 }
 /* the background colour */
@@ -225,7 +225,7 @@ h1 {
 
 /* web img */
 .web-dev img{
-	max-width: ;
+	max-width: 100%;
 	margin-top: 10px;
 }
 /* the background colour */
@@ -254,7 +254,7 @@ h1 {
 
 /* video img */
 .print img{
-	max-width: ;
+	max-width: 100%;
 	margin-top: 10px;
 }
 /* the background colour */
@@ -316,7 +316,7 @@ h1 {
 
 .john{
 	background-color: #ffe6ac;
-	margin: 10ox;
+	margin: 10px;
 }
 
 .team h2{
@@ -342,7 +342,7 @@ h1 {
 /* bobs background  */
 .bob{
 	background-color: #ffe6ac;
-	margin: 10ox;
+	margin: 10px;
 }
 
 .bob h3{
@@ -393,7 +393,7 @@ h1 {
 	grid-template-columns: 1fr 1fr;
 	margin: 15px;
 	gap: 0px;
-	border:2px solid #222;
+	border:1px solid #222;
 	grid-template-areas: 
 	"l1 l2"
 	"l3 l5"
@@ -403,30 +403,30 @@ h1 {
 .hours li:nth-child(1){
 	grid-area: l1;
 	background-color: #ffe6ac;
-	border:2px solid #222;
+	border:1px solid #222;
 	
 }
 
 .hours li:nth-child(2){
 	grid-area: l2;
 	background-color: #ffe6ac;
-	border:2px solid #222;
+	border:1px solid #222;
 }
 .hours li:nth-child(3){
 	grid-area: l3;
-	border:2px solid #222;
+	border:1px solid #222;
 }
 .hours li:nth-child(4){
 	grid-area: l4;
-	border:2px solid #222;
+	border:1px solid #222;
 }
 .hours li:nth-child(5){
 	grid-area: l5;
-	border:2px solid #222;
+	border:1px solid #222;
 }
 .hours li:nth-child(6){
 	grid-area: l6;
-	border:2px solid #222;
+	border:1px solid #222;
 }
 
 
@@ -456,7 +456,7 @@ footer p{
 		background-color: #222;
 		border: 15px solid #222;
 		border-bottom: 300px solid #222;	
-
+	}
 
 
 
@@ -469,7 +469,3 @@ footer p{
 
 
 }
-
-
-
-
