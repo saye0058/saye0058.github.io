@@ -104,8 +104,7 @@ h1 {
 	color: black;
 	position: absolute;
 	top: 800px;
-	border: 15px #c78c06;
-	border-bottom:20px #c78c06;
+	border: 15px solid #c78c06;
 	margin: 10px;
 }
 
@@ -282,24 +281,192 @@ h1 {
 	border:15px solid #222;
 }
 
+.vision{
+	margin-top:20px;
+}
+
+.vision p{
+	grid-column: 2;
+	margin: 10px;
+}
+/* our vision */
+.vision h3{
+	grid-column: 2;
+	font-size: 30px;
+	margin: 10px;
+}
+/* learn more */
+.vision h4{
+	grid-column: 2;
+	background-color: rgba(2, 2, 2, 0.5);
+	color: white;
+	margin-left: 10px;
+	display: inline-block;
+	border:2px solid #c78c06;
+}
+
+.vision img{
+	width: 100%;
+}
+/* our team text */
+.team h2{
+	font-size: 30px;
+	margin: 10px;
+}
+
+.john{
+	background-color: #ffe6ac;
+	margin: 10ox;
+}
+
+.team h2{
+	font-size: 30px;
+	margin: 10px;
+}
+
+.john h3{
+	font-size: 30px;
+	margin: 10px;
+}
+
+.john h4{
+	font-size: large;
+	text-decoration: underline solid #c78c06;
+	display: block;
+	margin: 10px;
+}
+
+.john p{
+	margin: 10px;
+}
+/* bobs background  */
+.bob{
+	background-color: #ffe6ac;
+	margin: 10ox;
+}
+
+.bob h3{
+	font-size: 30px;
+	margin: 10px;
+}
+
+.bob h4{
+	font-size: large;
+	text-decoration: underline solid #c78c06;
+	display: block;
+	margin: 10px;
+}
+
+.bob p{
+	margin: 10px;
+}
+
+
+.contact h2{
+	font-size: 40px;
+	margin: 10px;
+}
+
+.contact h3{
+	font-size: 30px;
+}
+
+.contact{
+	margin: 30px;
+}
+
+.contact p{
+	margin: 30px;
+	display: inline-block;
+	background-color: #222;
+	border:5px solid #222;
+	color: #c78c06;
+}
+
+.hours h3{
+	margin: 10px;
+	font-size: 30px;
+}
+
+.hours ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 15px;
+	gap: 0px;
+	border:2px solid #222;
+	grid-template-areas: 
+	"l1 l2"
+	"l3 l5"
+	"l4 l6";
+}
+
+.hours li:nth-child(1){
+	grid-area: l1;
+	background-color: #ffe6ac;
+	border:2px solid #222;
+	
+}
+
+.hours li:nth-child(2){
+	grid-area: l2;
+	background-color: #ffe6ac;
+	border:2px solid #222;
+}
+.hours li:nth-child(3){
+	grid-area: l3;
+	border:2px solid #222;
+}
+.hours li:nth-child(4){
+	grid-area: l4;
+	border:2px solid #222;
+}
+.hours li:nth-child(5){
+	grid-area: l5;
+	border:2px solid #222;
+}
+.hours li:nth-child(6){
+	grid-area: l6;
+	border:2px solid #222;
+}
 
 
 
 
+.location h3{
+	font-size: 30px;
+}
 
 
-
-
-
-
-
-
-
-
-
+footer{
+	background-color: #222;
+	border:40px solid #222;
+}
+footer p{
+	color: #c78c06;
+}
 
 }
+
+
+
+
 @media screen and (min-width: 761px) and (max-width: 1200px){
+
+	.logo{ 
+		background-color: #222;
+		border: 15px solid #222;
+		border-bottom: 300px solid #222;	
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
