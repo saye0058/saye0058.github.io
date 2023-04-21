@@ -280,7 +280,7 @@ h1 {
 	display: inline-block;
 	border:15px solid #222;
 }
-
+/* vision section */
 .vision{
 	margin-top:20px;
 }
@@ -308,19 +308,16 @@ h1 {
 .vision img{
 	width: 100%;
 }
+
 /* our team text */
 .team h2{
 	font-size: 30px;
 	margin: 10px;
 }
 
+/* johns section */
 .john{
 	background-color: #ffe6ac;
-	margin: 10px;
-}
-
-.team h2{
-	font-size: 30px;
 	margin: 10px;
 }
 
@@ -361,7 +358,7 @@ h1 {
 	margin: 10px;
 }
 
-
+/* contact section */
 .contact h2{
 	font-size: 40px;
 	margin: 10px;
@@ -383,6 +380,7 @@ h1 {
 	color: #c78c06;
 }
 
+/* hours and  */
 .hours h3{
 	margin: 10px;
 	font-size: 30px;
@@ -404,9 +402,7 @@ h1 {
 	grid-area: l1;
 	background-color: #ffe6ac;
 	border:1px solid #222;
-	
 }
-
 .hours li:nth-child(2){
 	grid-area: l2;
 	background-color: #ffe6ac;
@@ -431,12 +427,12 @@ h1 {
 
 
 
-
+/* map tital */
 .location h3{
 	font-size: 30px;
 }
 
-
+/* footer with the copyright */
 footer{
 	background-color: #222;
 	border:40px solid #222;
@@ -452,10 +448,9 @@ footer p{
 
 @media screen and (min-width: 761px) and (max-width: 1200px){
 
-	.logo{ 
+	.logo nav{ 
 		background-color: #222;
-		border: 15px solid #222;
-		border-bottom: 300px solid #222;	
+		border: 40px solid #222;
 	}
 
 
@@ -466,6 +461,112 @@ footer p{
 
 
 
+
+
+
+
+
+
+	.bob{
+		background-color: #ffe6ac;
+		margin: 10px;
+	}
+	
+	.bob h3{
+		font-size: 30px;
+		margin: 10px;
+	}
+	
+	.bob h4{
+		font-size: large;
+		text-decoration: underline solid #c78c06;
+		display: block;
+		margin: 10px;
+	}
+
+
+
+.contact h2{
+	font-size: 40px;
+	margin: 10px;
+}
+
+.contact h3{
+	font-size: 30px;
+}
+
+.contact{
+	margin: 30px;
+}
+
+.contact p{
+	margin: 30px;
+	display: inline-block;
+	background-color: #222;
+	border:5px solid #222;
+	color: #c78c06;
+}
+	
+
+	.location h3{
+		font-size: 30px;
+	}
+
+
+
+	.hours h3{
+		margin: 10px;
+		font-size: 30px;
+	}
+	
+	.hours ul{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin: 15px;
+		gap: 0px;
+		border:1px solid #222;
+		grid-template-areas: 
+		"l1 l2"
+		"l3 l5"
+		"l4 l6";
+	}
+	
+	.hours li:nth-child(1){
+		grid-area: l1;
+		background-color: #ffe6ac;
+		border:1px solid #222;
+	}
+	.hours li:nth-child(2){
+		grid-area: l2;
+		background-color: #ffe6ac;
+		border:1px solid #222;
+	}
+	.hours li:nth-child(3){
+		grid-area: l3;
+		border:1px solid #222;
+	}
+	.hours li:nth-child(4){
+		grid-area: l4;
+		border:1px solid #222;
+	}
+	.hours li:nth-child(5){
+		grid-area: l5;
+		border:1px solid #222;
+	}
+	.hours li:nth-child(6){
+		grid-area: l6;
+		border:1px solid #222;
+	}
+
+
+
+	footer{
+		background-color: #222;
+		border:40px solid #222;
+	}
+	footer p{
+		color: #c78c06;
+	}
 
 
 }
