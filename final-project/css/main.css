@@ -49,45 +49,82 @@ table {
 
 /*colours are #c78c06 #ffe6ac #222and white*/
 
+*{
+	font-family: 'Open Sans', sans-serif;
+}
 
 @media screen and (min-width: 1px) and (max-width: 760px){
 
-*{
-	/* background-color: white; */
-}
 
 
+/* the logo and its black border */
 .logo{ 
 	background-color: #c78c06;
-
+	border: 15px solid #222;
+	border-bottom: 300px solid #222;	
 }
 
+/* the list items */
 .logo nav{
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
-
+	align-items: center;
+	margin:auto;
 }
 
-
-
-
-
-
-
-
-
-.welcome{
-	background-image: url(main-banner.jpg);
+/* welcome background img */
+.welcome img{
+max-width: 100%;
 }
 
-
+/* welcome to three star media */
+h1 {
+	font-size: 50px;
+	background-color: rgba(2, 2, 2, 0.5);
+	color: white;
+	position: absolute;
+	right: 100px;
+	top: 550px;
+	margin-left: 100px;
 }
 
+/* the lorem under welcome three star media */
+.welcome p{
+	background-color: rgba(2, 2, 2, 0.5);
+	color: white;
+	position: absolute;
+	top:700px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* the connect with us */
+.welcome h4{
+	background-color:#c78c06;
+	color: black;
+	position: absolute;
+	top: 800px;
+	border: 15px #c78c06;
+	border-bottom:20px #c78c06;
+	margin: 10px;
+}
+
+/* about us img */
+.about img{
+	max-width: 100%;
+	margin: 10px;
+	margin-right: 10px;
+	border-width:  #ffe6ac;
+	border-bottom: #ffe6ac;
+	background-color: #ffe6ac;
+	}
+
+/*  */
 
 
 
 
+}
 @media screen and (min-width: 761px) and (max-width: 1200px){
 
 }
