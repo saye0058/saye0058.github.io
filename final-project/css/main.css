@@ -111,15 +111,189 @@ h1 {
 
 /* about us img */
 .about img{
-	max-width: 100%;
-	margin: 10px;
-	margin-right: 10px;
-	border-width:  #ffe6ac;
-	border-bottom: #ffe6ac;
-	background-color: #ffe6ac;
+	max-width: 95%;
+	margin: 15px;
 	}
 
-/*  */
+/* the about background */
+.about{
+	background-color: #ffe6ac;
+	
+}
+
+/* the about tital */
+.about h2{
+	font-size: 50px;
+	margin: 10px;
+
+}
+/* the abouts text */
+.about p{
+	margin: 10px;
+	padding: 10px;
+}
+
+/* our services text */
+.services{
+	font-size: 40px;
+}
+
+/* digital transformation img */
+.digital img{
+	max-width: ;
+
+}
+/* the background colour */
+.digital{
+	background-color: #ffe6ac;
+	background-size: 100%;
+}
+/* digital transformation text */
+.digital h3{
+	font-size: 30px;
+	margin: 10px;
+}
+
+.digital p{
+	margin: 10px;
+}
+/* text in black background */
+.digital h4{
+	background-color: #222;
+	color: white;
+	margin-left: 10px;
+	display: inline-block;
+	border:15px solid #222;
+}
+
+/* marketing img */
+.marketing img{
+	max-width: ;
+	margin-top: 10px;
+}
+/* the background colour */
+.marketing{
+	background-color: #ffe6ac;
+	background-size: 100%;
+	margin-top: 10px;
+}
+/* marketing text */
+.marketing h3{
+	font-size: 30px;
+	margin: 10px;
+}
+
+.marketing p{
+	margin: 10px;
+}
+/* text in black background */
+.marketing h4{
+	background-color: #222;
+	color: white;
+	margin-left: 10px;
+	display: inline-block;
+	border:15px solid #222;
+}
+
+/* video img */
+.video img{
+	max-width: ;
+	margin-top: 10px;
+}
+/* the background colour */
+.video{
+	background-color: #ffe6ac;
+	background-size: 100%;
+	margin-top: 10px;
+}
+/* video production text */
+.video h3{
+	font-size: 30px;
+	margin: 10px;
+}
+
+.video p{
+	margin: 10px;
+}
+/* text in black background */
+.video h4{
+	background-color: #222;
+	color: white;
+	margin-left: 10px;
+	display: inline-block;
+	border:15px solid #222;
+}
+
+/* web img */
+.web-dev img{
+	max-width: ;
+	margin-top: 10px;
+}
+/* the background colour */
+.web-dev{
+	background-color: #ffe6ac;
+	background-size: 100%;
+	margin-top: 10px;
+}
+/* web development text */
+.web-dev h3{
+	font-size: 30px;
+	margin: 10px;
+}
+
+.web-dev p{
+	margin: 10px;
+}
+/* text in black background */
+.web-dev h4{
+	background-color: #222;
+	color: white;
+	margin-left: 10px;
+	display: inline-block;
+	border:15px solid #222;
+}
+
+/* video img */
+.print img{
+	max-width: ;
+	margin-top: 10px;
+}
+/* the background colour */
+.print{
+	background-color: #ffe6ac;
+	background-size: 100%;
+	margin-top: 10px;
+}
+/* video production text */
+.print h3{
+	font-size: 30px;
+	margin: 10px;
+}
+
+.print p{
+	margin: 10px;
+}
+/* text in black background */
+.print h4{
+	background-color: #222;
+	color: white;
+	margin-left: 10px;
+	display: inline-block;
+	border:15px solid #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
